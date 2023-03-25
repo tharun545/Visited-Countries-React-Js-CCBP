@@ -1,0 +1,96 @@
+.main-container {
+  background-color: #161624;
+  padding-top: 10px;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-bottom: 10px;
+  height: 100vh;
+  overflow: auto;
+}
+
+.heading {
+  color: #ffffff;
+  font-family: Roboto;
+  font-weight: 500;
+}
+
+.country-name {
+  color: #ffffff;
+  font-family: Roboto;
+}
+
+.list-item-card {
+  list-style-type: none;
+  overflow-y: scroll;
+  height: 200px;
+}
+
+.name-button-card {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 10px;
+  align-items: center;
+  border: 1px #334155 solid;
+}
+
+.visit-btn {
+  background-color: transparent;
+  width: 80px;
+  height: 30px;
+  border-radius: 7px;
+  border: 0;
+  color: #94a3b8;
+}
+
+.visited-btn {
+  background-color: #3b82f6;
+  width: 80px;
+  height: 30px;
+  border-radius: 7px;
+  border: 0;
+  color: #ffffff;
+}
+
+.visited-country-card {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  list-style-type: none;
+}
+
+.flag-card {
+  background-color: #334155;
+  height: 210px;
+  width: 250px;
+  margin: 10px;
+}
+
+.flag-logo {
+  width: 250px;
+  height: 150px;
+}
+
+.name-remove-card {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.remove-btn {
+  border: 1px #ffffff solid;
+  background-color: transparent;
+  color: #ffffff;
+  width: 70px;
+  height: 30px;
+  margin: 10px;
+}
+
+.no-country {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
